@@ -5,7 +5,8 @@
   },
   "api": {
     "projectId": "axv0u9cn",
-    "dataset": "production"
+    "dataset": "production",
+    "origin": "*"
   },
   "plugins": [
     "@sanity/base",
@@ -25,5 +26,6 @@
       "name": "part:@sanity/base/schema",
       "path": "./schemas/schema"
     }
-  ]
+  ],
+  "allowCredentials": true
 }
